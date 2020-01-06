@@ -63,7 +63,7 @@
 			const { windowWidth, windowHeight } = uni.getSystemInfoSync();	
 			this.iStatusBarHeight=windowHeight-50;
 			uni.connectSocket({
-				url:"ws://192.168.0.149/chat/20"
+				url:"ws://192.168.0.149:8081/chat/20"
 			})
 		},
 		onHide:function(){
