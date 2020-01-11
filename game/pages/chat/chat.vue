@@ -84,6 +84,11 @@
 				if(''==this.msgContent){
 					return;
 				}
+				let msgData={
+					'fromUser':20,
+					'toUser':1,
+					'content':this.msgContent
+				};
 				this.msgList.push({'content':this.msgContent,'type':'user'});
 				
 				uni.sendSocketMessage({

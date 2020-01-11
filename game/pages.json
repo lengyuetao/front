@@ -61,6 +61,10 @@
             "path" : "pages/HM-chat/HM-hand/HM-hand",
             "style" : {}
         }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
